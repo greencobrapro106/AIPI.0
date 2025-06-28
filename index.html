@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Offline AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="chat">
+    <div id="messages"></div>
+    <div id="input-area">
+      <textarea id="user-input" rows="2" placeholder="Say something…"></textarea>
+      <button id="send-btn" disabled>Send</button>
+    </div>
+  </div>
+
+  <!-- local xenova transformers bundle -->
+  <script src="lib/transformers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
